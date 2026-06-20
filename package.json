@@ -1,5 +1,5 @@
 {
-  "name": "promptguard",
+  "name": "injection-guard",
   "version": "0.1.0",
   "description": "Detect and sanitize prompt injection attacks in LLM applications. Zero dependencies. TypeScript-first.",
   "main": "dist/index.js",
@@ -12,7 +12,9 @@
       "require": "./dist/index.js"
     }
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup",
     "test": "vitest run",
@@ -21,8 +23,15 @@
     "prepublishOnly": "npm run build"
   },
   "keywords": [
-    "llm", "prompt-injection", "ai-security", "openai", "anthropic",
-    "prompt", "security", "middleware", "typescript"
+    "llm",
+    "prompt-injection",
+    "ai-security",
+    "openai",
+    "anthropic",
+    "prompt",
+    "security",
+    "middleware",
+    "typescript"
   ],
   "author": "Sufiyan Khan",
   "license": "MIT",
@@ -32,9 +41,9 @@
   },
   "homepage": "https://github.com/CoderSufiyan/promptguard",
   "devDependencies": {
+    "@types/node": "^22.0.0",
     "tsup": "^8.3.0",
     "typescript": "^5.7.0",
-    "vitest": "^2.1.0",
-    "@types/node": "^22.0.0"
+    "vitest": "^2.1.0"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "injection-guard",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Detect and sanitize prompt injection attacks in LLM applications. Zero dependencies. TypeScript-first.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -37,9 +37,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/CoderSufiyan/promptguard"
+    "url": "https://github.com/CoderSufiyan/injection-guard"
   },
-  "homepage": "https://github.com/CoderSufiyan/promptguard",
+  "homepage": "https://github.com/CoderSufiyan/injection-guard",
   "devDependencies": {
     "@types/node": "^22.0.0",
     "tsup": "^8.3.0",
